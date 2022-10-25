@@ -1,0 +1,85 @@
+<div class="container-fluid bg-light">
+    <div class="container bg-light">
+        <div class="row mt-4" style="height: 500px;">
+            <div class="col"></div>
+            <div class="col-md-6 bg-white shadow">
+                
+                <div class="card bg-warning mt-4">
+                 <h2 class="text-white p-3 pt-3 pb-3">Issue List</h2>
+                 <h3><a routerLink="list" class="nav-link" routerLinkActive="active">Create New Issue List</a></h3>
+                </div>
+                
+                <div class="shadow">
+                    <div class="input-group p-4">
+                        <input type="text" class="form-control" placeholder="Enter issue " name="task_name" [(ngModel)]="adddetails.task_name" id="task_name">
+                        <!-- <p>{{addTaskValue}}</p> -->
+                        <button class="btn btn-outline-success" type="button" (click)="addTask()">+</button>          
+                    </div>
+                </div>
+                 
+<br>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5> -->
+                      <h6 class="card-subtitle mb-2 text-muted">Syntax Error</h6>
+                      <p class="card-text">The code will not be compiled in one of the missing parentheses. Code that doesn’t have its parenthesis in the correct order may also perform incorrectly.</p>
+                      <!-- <a href="#" class="card-link">Card link</a> -->
+                      <!-- <a href="#" class="card-link">Another link</a> -->
+                    </div>
+                  </div>      
+ 
+  <!-- <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                      Issue
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">An item</li>
+                      <li class="list-group-item">A second item</li>
+                      <li class="list-group-item">A third item</li>
+                    </ul>
+                  </div> 
+
+
+
+
+ -->
+
+
+
+                <!-- <h4 class="text-primary mt-4">Issue : </h4>
+                 
+                <div style="overflow-y: auto; height: 350px;">
+                    <div class="m-3" *ngFor="let task of tasks">
+                        <div class="p-2 shadow border" task_id="tasks">
+                            <div class="input-group row ps-3"> 
+                                <div class="card col-md-10 border-0"> {{task.task_name}} </div>
+                                <button class="btn btn-outline-primary col me-2" data-bs-toggle="modal" type="button"(click)='call(tasks)'>EDIT</button>
+                                <div class="btn btn-outline-danger col" (click)="deleteTask(task.id)" >DELETE</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Edit Task</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                             <div class="input-group p-4"> 
+                                <input type="text" class="form-control" placeholder="Enter task " name="tasks" >
+                                <button class="btn btn-outline-success" type="button" data-bs-dismiss="modal" (click)="editTask()">Update</button>
+                            </div> 
+                        </div>
+                     </div>
+                 </div>
+             </div>
+            </div>
+            <div class="col"></div>
+
+        </div>
+
+    </div>
+</div> -->
